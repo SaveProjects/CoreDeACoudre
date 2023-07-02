@@ -1,0 +1,61 @@
+#
+# Fichier configuration de jeux par Edmine Network.
+# Dev: N12cf
+# Version: 0.1
+#
+
+#Gestion des timers du jeu.
+Timers:
+  start: 30
+  startFull: 10
+  game: 600
+#Gestion des blocs du jeu.
+Blocs:
+  Herbe:
+    id: 266805
+    material: grass
+  Paille:
+    id: 226697
+    material: hay_block
+  Brique:
+    id: 481622
+    material: brick
+  TnT:
+    id: 423791
+    material: tnt
+  RocheDuNether:
+    id: 765687
+    material: netherrack
+  PierreDuNeant:
+    id: 500552
+    material: ender_stone
+  Obsidienne:
+    id: 929800
+    material: obisidian
+#Gestion des cartes du jeu.
+Cartes:
+  italy:
+    specSpawn:
+      x: -0.5
+      y: 100.0
+      z: -52.5
+      f: -0.5
+      p: 30.0
+    easy:
+      x: -56.5
+      y: 70.0
+      z: -21.5
+      f: -90.5
+      p: -3
+    normal:
+      x: 53.5
+      y: 71.0
+      z: -2.5
+      f: -180.0
+      p: -0
+    hard:
+      x: -0.5
+      y: 75.0
+      z: 52.5
+      f: -173.5
+      p: -0.0
